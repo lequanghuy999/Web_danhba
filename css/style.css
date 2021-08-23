@@ -1,0 +1,574 @@
+/* ============================ Reset CSS ==============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* ============================ header ==============================*/
+#header {
+    background-color: #fff;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+}
+#header .logo {
+    position: absolute;
+    height: 120px;
+}
+#header .logo img {
+    height: 75px;
+    margin-left: 6.1rem;
+    margin-top: 1.2rem;
+}
+#header .top-header {
+    position: relative;
+    height: 60px;
+    top: 1rem;
+    display: inline;
+}
+
+
+#header .header-contact {
+    text-align: left;
+    margin-left: 24em;
+    max-width: 40%;
+}
+#header .header-contact p {
+    position: absolute;
+    margin-left: 3px;
+    display: inline;
+    margin-top: 8px;
+}
+#header .header-contact img {
+    margin-left: 100px;
+}
+#header .header-contact span {
+    color: #f9b84a;
+    font-weight: bold;
+}
+#header .header-top-nav {
+    background-color: #004e9a;
+    position: relative;
+    float: right;
+    right: 7em;
+    bottom: 2.7em;
+    width: 25%;
+    clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 0 49%);
+    
+}
+#header .header-top-nav ul li {
+    display: inline; 
+}
+#header .header-top-nav ul {
+    margin-left: 0.5em;
+    height: 1.7em;
+}
+#header .header-top-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+#header .header-top-nav ul li span {
+    color: #ba9c30;
+}
+
+
+/* =========================== */
+nav {
+    margin-top: 1.5em;
+}
+nav ul{
+    float: left;
+    margin-left: 24.5em;
+  }
+
+nav ul li{
+    display: inline-block;
+    margin-left: -4px;
+    z-index: 1;
+  }
+nav ul ul li {
+    border-bottom: 1px solid #000;
+}
+nav ul li a{
+    color: #000;
+    display: block;
+    padding: 0 15px;
+    line-height: 38px;
+    font-size: 14px;
+    background: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+nav ul li a:hover,
+nav ul li a.active{
+    color: #004e98;
+  }
+nav ul ul{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+nav ul li:hover > ul{
+    top: 121px;
+    opacity: 1;
+    visibility: visible;
+    
+
+  }
+nav ul ul li{
+    left: -29px;
+    width: 280px;
+    display: list-item;
+    position: relative;
+    border-top: none;
+    margin-left: -22.5em;
+  }
+nav ul ul li a{
+    line-height: 50px;
+  }
+nav ul ul ul{
+    border-top: none;
+    
+  }
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    
+  }
+
+
+ /* ============================ slider ==============================*/
+#slider {
+    width: 100%;
+    height: 505px;
+    z-index: 0;
+}
+
+ /* ============================ address-study ==============================*/
+#address-study {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+}
+#address-study .col {
+    height: 22em;
+    margin-top: 4em;
+}
+#address-study .col p {
+    text-align: center;
+}
+#address-study .col img {
+    width: 14em;
+    max-height: 255px;
+    margin-left: 5px;
+}
+#address-study .h5 {
+    font-weight: bold;
+    color: #195fa3;
+}
+#address-study .text-question1 {
+    max-height: 2em;
+    max-width: 38em;
+    margin-left: 9em;
+}
+#address-study .text-question2 {
+    font-weight: bold;
+    max-height: 2em;
+    max-width: 30em;
+    margin-right: 7em;
+}
+#address-study .text-question2 span {
+    color: #004e9a;
+}
+#address-study .col .ct1 {
+    max-width: 21em;
+    display: inline;
+}
+#address-study button {
+    background-color: #004e98;
+    color: #f9b60d;
+    text-align: right;
+    border: none;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+ /* ============================ contact ==============================*/
+#contact {
+    background-color: #004e98;
+    width: 100%;
+    height: 120px;
+}
+#contact .icon-down img {
+    position: absolute;
+    font-size: 10px;
+    
+}
+#contact .col {
+    margin-top: 1.7em;
+}
+#contact .col img {
+    width: 3.5em;
+    margin-left: 6em;
+}
+#contact .col p {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+}
+#contact .col .h4 {
+    margin-top: 1.2em;
+    margin-left: 1em;
+}
+#contact .col .h5 {
+    margin-top: 0.3em;
+    margin-left: 1.2em;
+}
+ /* ============================ box-news ==============================*/
+#box-news {
+    background-color: #f7fcff;
+    width: 90%;
+    height: 520px;
+    margin: 0 auto;
+}
+#box-news .title-news {
+    margin-top: 2.2em;
+    border-bottom: 1px solid black;
+    
+}
+#box-news .title-news .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004e9a;
+}
+#box-news .hoithao-news {
+    margin-top: 1.2em;
+}
+#box-news .hoithao-news .news-content {
+    float: right;
+}
+#box-news .hoithao-news img {
+    width: 13em;
+    height: 8em;
+}
+#box-news .hoithao-news button {
+    background-color: #004e9a;
+    border: none;
+    font-size: 20px;
+    height: 36px;
+    border-radius: 5px;
+    color: #fff;
+}
+#box-news .hoithao-news i {
+    margin-left: 10px;
+}
+#box-news .table-event {
+    margin-top: 15px;
+    height: 2em;
+}
+#box-news .table-event-1 p {
+    margin-top: 10px;
+}
+#box-news .table-event p {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#box-news .thongbao-news {
+    margin-top: 15px;
+    border-bottom: 1px dotted black;
+    height: 6.3em;
+}
+#box-news .thongbao-news img {
+    width: 8em;
+    height: 5em;
+}
+#box-news .thongbao-news .news-content {
+    float: right;
+    display: block;
+    width: 55%;
+}
+ /* ============================ japan-study ==============================*/
+#japan-study {
+    background-color: #fff;
+    width: 85%;
+    height: 655px;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    padding: 0;
+}
+#japan-study .header-title-jp {
+    max-height: 2.2em;
+    border-bottom: 1px solid #000;
+    width: 97%;
+    font-weight: bold;
+    color: #004e9a;
+}
+#japan-study .jp-categories {
+    width: 60%;
+    height: 2.3em;
+    float: right;
+    margin-top:-2.4em ;
+}
+#japan-study .jp-categories ul li a {
+    text-decoration: none;
+    float: right;
+    display: inline;
+    margin-left: 30px;
+    color:#aba5b7;
+}
+#japan-study .jp-categories ul li .h5 {
+    margin-top: -1.5em;
+    margin-left: 35px;
+}
+
+#japan-study .jp-categories ul li img {
+    margin-right: 2em;
+}
+#japan-study .main-content {
+    margin-top: 1em;
+}
+#japan-study .container {
+    padding: 0;
+}
+#japan-study .main-content .col {
+}
+#japan-study .main-content img {
+    width: 100%;
+}
+#japan-study .main-content i {
+    margin-left: 5px;
+}
+#japan-study .main-content p {
+    margin-top: 10px;
+}
+#japan-study .main-content .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#japan-study .main-content button {
+    font-size: 18px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #004e9a;
+    color: #fff;
+}
+#japan-study .main-content .jp-news img {
+    width: 9em;
+    height: 100px;
+
+}
+#japan-study .main-content .jp-news {
+    border-bottom: 1px dotted black;
+    margin-bottom: 15px;
+}
+#japan-study .main-content .news-content {
+    float: right;
+    display: block;
+    width: 60%;
+}
+#japan-study .main-content .news-content p {
+    font-size: 14px;
+    margin-top: 0em;
+}
+#japan-study .main-content .news-content .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+ /* ============================ korean-study ==============================*/
+#korean-study {
+    background-color: #f7fcff;
+    width: 100%;
+    height: 655px;
+}
+ /* ============================ germany-study ==============================*/
+#germany-study {
+    background-color: #fff;
+    width: 100%;
+    height: 655px;
+}
+ /* ============================ china-study ==============================*/
+#china-study {
+    background-color: #f7fcff;
+    width: 100%;
+    height: 655px;
+}
+ /* ============================ dailoan-study ==============================*/
+#dailoan-study {
+    background-color: #fff;
+    width: 100%;
+    height: 655px;
+}
+ /* ============================ feedback ==============================*/
+#feedback {
+    background-color: #f7fcff;
+    width: 85%;
+    height: 450px;
+    margin: 0 auto;
+}
+#feedback .container {
+    padding: 0;
+}
+#feedback .header-title-fb {
+    border-bottom: 1px solid black;
+}
+#feedback .header-title-fb .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004e9a;
+}
+#feedback .content-fb {
+    margin-top: 25px;
+    width: 100%;
+}
+#feedback .content-fb video {
+    width: 99%;
+}
+#feedback .content-right-fb {
+    margin-top: 25px;
+    text-align: center;
+}
+
+ /* ============================ advise ==============================*/
+#advise {
+    background-color: #fff;
+    width: 100%;
+    height: 505px;
+}
+#advise .header-title-ad .h5 {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004e9a;
+
+}
+#advise .box-info {
+    background-color:#004e9a;
+    width: 90%;
+    height: 430px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#advise .box-info .h4 {
+    margin: 0 auto;
+}
+#advise .box-info .input-group {
+    width: 88%;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+#advise .box-input {
+    
+}
+#advise .box-input .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004e9a;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+#advise .contact-hr {
+    margin-top: 30px;
+}
+#advise .contact-hr span {
+    color: #f7b50d;
+}
+#advise .contact-hr button {
+    background-color: #004e9a;
+}
+#advise .contact-hr {
+    border-bottom: 1px dotted black;
+    height: 150px;
+}
+ /* ============================ footer ==============================*/
+#footer {
+    width: 100%;
+    height: 465px;
+}
+#footer .h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f9b60d;
+}
+#footer .h6 {
+    color: #fff;
+}
+#footer .top-footer1 {
+    background-color: #004e98;
+    height: 250px;
+    border-bottom: 1px solid black;
+    border: 70%;
+}
+#footer .top-footer1 .container {
+    width: 90%;
+    padding-top: 30px;
+}
+#footer .top-footer1 i {
+    margin-right: 8px;
+}
+#footer .top-footer2 {
+    background-color: #004e98;
+    height: 172px;
+}
+#footer .top-footer2 .container {
+    width: 90%;
+    padding-top: 30px;
+}
+#footer .bottom-footer {
+    background-color: #7ca5cc;
+    height: 43px;
+}
+#footer .bottom-footer .h6 {
+    margin-left: 110px;
+    padding-top: 12px;
+}
+
+/* ===============login form =================*/
+.login-bt {
+}
